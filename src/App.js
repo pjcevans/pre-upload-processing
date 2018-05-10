@@ -3,8 +3,8 @@ import logo from './logo.svg';
 import './App.css';
 import Dropzone from 'react-dropzone'
 let dropzoneRef;
-import * as XLSX from 'xlsx';
-
+import Papa from 'papaparse';
+// use papaparse for parsing csv files
 class App extends Component {
   constructor() {
     super()
